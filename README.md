@@ -7,6 +7,8 @@ Amiga code! This Repo contains some Demos on how to write code for using Amiga w
 # Cave at
 This code might contain some bugs, though having been tested and found working! Programs use german language for their GUI and code documentation - there are no translations available yet.
 
+Be aware that the C include files for wizard.library in Bernd Roesch's downloadable archive on amiforce.de contain some non-amiga extra tokens that you'll have to remove by hand if not using a cross compiler!
+
 # LICENSE
 Copyright (C) 1987 - 2017 by Michael Bergmann. Placed in the public domain with some restrictions!
 
@@ -22,8 +24,8 @@ This program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRA
 
 # Free Amiga native C compiler downloads
 - VBCC: http://sun.hasenbraten.de/vbcc/index.php?view=main
-- GCC (native Amiga): https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwja1avZ1affAhVQ-aQKHSEKBW4QFjADegQIBhAB&url=http%3A%2F%2Faminet.net%2Fpackage%2Fdev%2Fgcc%2FADE-repack&usg=AOvVaw0mlfZyBJAIEuq5RCBZMQJ7
+- GCC v2.95 (ADE toolchain, native Amiga): https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwja1avZ1affAhVQ-aQKHSEKBW4QFjADegQIBhAB&url=http%3A%2F%2Faminet.net%2Fpackage%2Fdev%2Fgcc%2FADE-repack&usg=AOvVaw0mlfZyBJAIEuq5RCBZMQJ7
 
-# Free Amiga cross compiler downloads
+# Free Amiga C cross compiler downloads
 - GCC v2.95: https://github.com/cahirwpz/demoscene-toolchain
 - VBCC and a more recent GCC version: https://github.com/bebbo/amiga-gcc (recommended)
