@@ -17,3 +17,5 @@ You may use or enhance this piece of software anyway you want to - as long as yo
 
 This program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
+# Compiling
+...should be done on a real or emulated classic Amiga. You might also use some Amiga Cross Compiler toolchain on a PC or Mac. Be aware that you have to place the neccessary linker libs and include files into the right places by hand!
