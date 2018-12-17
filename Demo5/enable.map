@@ -1,0 +1,324 @@
+Global M68K Construktors
+	_INIT_0_InitFiles
+	_INIT_1_DOS_c__DOSBase
+	_INIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase
+	_INIT_5_InitStdIOFiles
+Global M68K Destruktors
+	_EXIT_5_InitFiles
+	_EXIT_5_InitStdIOFiles
+	_EXIT_4_free
+	_EXIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase
+	_EXIT_1_DOS_c__DOSBase
+	_EXIT_0_Main
+No Global PPC Destruktors
+No Global PPC Destruktors
+
+M68K Code
+
+
+  Hunk #0 ( Far Public ) 15212 Bytes (0x3b6c)
+  __startup68K = 0 (0x0) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/STARTUPS/STARTUP.O
+  _exit = 424 (0x1a8) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/STARTUPS/STARTUP.O
+  _main = 460 (0x1cc) referenced 2 times
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _init_libraries = 1572 (0x624) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _exit_libraries = 1794 (0x702) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _fflush = 2392 (0x958) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _setvbuf = 2476 (0x9ac) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaread = 2696 (0xa88) referenced 6 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigareadunget = 3128 (0xc38) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigawrite = 3228 (0xc9c) referenced 4 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaeof = 3796 (0xed4) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaseek = 3820 (0xeec) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigagetc = 4164 (0x1044) referenced 5 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigagetcunget = 4220 (0x107c) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaungetc = 4252 (0x109c) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaputc = 4284 (0x10bc) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaflush = 4344 (0x10f8) referenced 8 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _amigaclose = 4600 (0x11f8) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _INIT_0_InitFiles = 4708 (0x1264) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _EXIT_5_InitFiles = 4780 (0x12ac) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _memcpy = 4864 (0x1300) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _malloc = 4928 (0x1340) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _free = 5328 (0x14d0) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _EXIT_4_free = 5504 (0x1580) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _formatted_out = 6080 (0x17c0) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _printf = 8216 (0x2018) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _INIT_5_InitStdIOFiles = 8268 (0x204c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _EXIT_5_InitStdIOFiles = 8502 (0x2136) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _strlen = 8548 (0x2164) referenced 4 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _signed_out = 8576 (0x2180) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _signed_out_l = 9230 (0x240e) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _unsigned_out = 9320 (0x2468) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _unsigned_out_l = 9912 (0x26b8) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _char_out = 10440 (0x28c8) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _string_out = 10580 (0x2954) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  Close = 10772 (0x2a14) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Close = 10772 (0x2a14) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Read = 10792 (0x2a28) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Read = 10792 (0x2a28) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Write = 10820 (0x2a44) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Write = 10820 (0x2a44) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Input = 10848 (0x2a60) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Input = 10848 (0x2a60) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Output = 10864 (0x2a70) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Output = 10864 (0x2a70) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Seek = 10880 (0x2a80) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Seek = 10880 (0x2a80) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  DeleteFile = 10908 (0x2a9c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _DeleteFile = 10908 (0x2a9c) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  IoErr = 10928 (0x2ab0) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _IoErr = 10928 (0x2ab0) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  IsInteractive = 10944 (0x2ac0) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _IsInteractive = 10944 (0x2ac0) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  NameFromFH = 10964 (0x2ad4) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _NameFromFH = 10964 (0x2ad4) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  GetProgramName = 10992 (0x2af0) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _GetProgramName = 10992 (0x2af0) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  FilePart = 11020 (0x2b0c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _FilePart = 11020 (0x2b0c) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  AddPart = 11040 (0x2b20) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _AddPart = 11040 (0x2b20) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  VPrintf = 11068 (0x2b3c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _VPrintf = 11068 (0x2b3c) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Allocate = 11096 (0x2b58) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Allocate = 11096 (0x2b58) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Deallocate = 11120 (0x2b70) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Deallocate = 11120 (0x2b70) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  AllocMem = 11148 (0x2b8c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _AllocMem = 11148 (0x2b8c) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  FreeMem = 11172 (0x2ba4) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _FreeMem = 11172 (0x2ba4) referenced 4 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  AddHead = 11196 (0x2bbc) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _AddHead = 11196 (0x2bbc) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  Remove = 11220 (0x2bd4) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _Remove = 11220 (0x2bd4) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  RemHead = 11240 (0x2be8) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _RemHead = 11240 (0x2be8) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  FindTask = 11260 (0x2bfc) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _FindTask = 11260 (0x2bfc) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  CloseLibrary = 11280 (0x2c10) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _CloseLibrary = 11280 (0x2c10) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  OpenLibrary = 11300 (0x2c24) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _OpenLibrary = 11300 (0x2c24) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  EasyRequest = 11324 (0x2c3c) unused, maybe local
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _EasyRequest = 11324 (0x2c3c) referenced 1 times
+    File DevSystem:Compiler/StormC/LIB/AMIGA.LIB
+  _setjmp = 11356 (0x2c5c) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/MATH000.LIB
+  _longjmp = 11372 (0x2c6c) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/MATH000.LIB
+  _floor = 11392 (0x2c80) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/MATH000.LIB
+  _frexp = 11416 (0x2c98) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/MATH000.LIB
+  _double_out = 12072 (0x2f28) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/MATH000.LIB
+  main() = 13540 (0x34e4) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  main(int,char **) = 13548 (0x34ec) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _wbmain__FP9WBStartup = 13556 (0x34f4) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  wbmain(WBStartup *) = 13556 (0x34f4) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _wbmain = 13564 (0x34fc) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  main(int,char *) = 13568 (0x3500) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _EXIT_0_Main = 14040 (0x36d8) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _INIT_1_DOS_c__DOSBase = 14092 (0x370c) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _EXIT_1_DOS_c__DOSBase = 14128 (0x3730) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _InitModules = 14208 (0x3780) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _CleanupModules = 14292 (0x37d4) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  LibBaseC::LibBaseC(char *,unsigned long,short) = 14388 (0x3834) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  LibBaseC::~LibBaseC() = 14804 (0x39d4) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _INIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase = 14836 (0x39f4) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _EXIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase = 14872 (0x3a18) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  intdiv = 14920 (0x3a48) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  uintdiv = 14958 (0x3a6e) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  lib_div_uint = 14958 (0x3a6e) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___uintdivmod32 = 14958 (0x3a6e) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  lib_div_int = 14920 (0x3a48) referenced 2 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___intdivmod32 = 14920 (0x3a48) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  Neg64 = 15040 (0x3ac0) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___neg64 = 15040 (0x3ac0) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  SDiv64 = 15048 (0x3ac8) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  UDiv64 = 15088 (0x3af0) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___uintdivmod64 = 15088 (0x3af0) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___intdivmod64 = 15048 (0x3ac8) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  UMod64 = 15188 (0x3b54) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___uintmod64 = 15188 (0x3b54) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  SMod64 = 15200 (0x3b60) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+  ___intmod64 = 15200 (0x3b60) unused, maybe local
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSUPPORT000.LIB
+
+PowerPC Code
+
+
+Data
+
+
+  Hunk #1 ( Far Public ) 948 Bytes (0x3b4)
+  _GUI = 0 (0x0) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _ver = 4 (0x4) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _myreq = 8 (0x8) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _std__out = 408 (0x198) referenced 3 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _std__in = 496 (0x1f0) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _std__err = 584 (0x248) referenced 2 times
+    File DevSystem:Compiler/StormC/LIB/STORM.LIB
+  _DOSBase = 864 (0x360) referenced 15 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _not_open__LibBaseC = 876 (0x36c) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  _MathIeeeDoubBasBase = 880 (0x370) referenced 5 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  ___stacksize = 884 (0x374) referenced 1 times
+    File DevSystem:Compiler/StormC/STORMSYS/LIB/STORMCSTARTUP000.LIB
+  ___init_table68k = 888 (0x378) referenced 2 times
+    File <Internal Assembled>
+  ___exit_table68k = 920 (0x398) referenced 1 times
+    File <Internal Assembled>
+
+BSS
+
+
+  Hunk #2 ( Far Public ) 1016 Bytes (0x3f8)
+  _SysBase = 0 (0x0) referenced 12 times
+    File DevSystem:Compiler/StormC/STORMSYS/STARTUPS/STARTUP.O
+  _IntuitionBase = 176 (0xb0) referenced 2 times
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _UtilityBase = 180 (0xb4) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _AslBase = 184 (0xb8) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _WizardBase = 188 (0xbc) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _surface = 192 (0xc0) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _screen = 196 (0xc4) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _newwin = 200 (0xc8) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _window = 204 (0xcc) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _winhandle = 208 (0xd0) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _gads = 212 (0xd4) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+  _msg = 448 (0x1c0) unused, maybe local
+    File Source:Demos/mb-Demos/Demo5/objects_debug/enable.o
+
+END
