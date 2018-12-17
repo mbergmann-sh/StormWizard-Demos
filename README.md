@@ -5,7 +5,7 @@ Amiga code! This Repo contains some Demos on how to write code for using Amiga w
 - a decent C compiler with AmigaOS 3.9 NDK installed - SAS/C, vbcc, StormC3, StormC4 or gcc v2.95 suggested. You can get the NDK here: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwjMt_erz6ffAhWJGuwKHfJjAFEQFjAAegQIBxAB&url=http%3A%2F%2Fwww.haage-partner.de%2Fdownload%2FAmigaOS%2FNDK39.lha&usg=AOvVaw1lW3bgBPVzO4NCgRnREGjF
 
 # Cave at
-This code might contain some bugs, though having been tested and found working! Programs use german language for their GUI - there are no translations available yet.
+This code might contain some bugs, though having been tested and found working! Programs use german language for their GUI and code documentation - there are no translations available yet.
 
 # LICENSE
 Copyright (C) 1987 - 2017 by Michael Bergmann. Placed in the public domain with some restrictions!
